@@ -21,12 +21,11 @@ Try it without installing anything: the [live demo](https://safeai.safecadence.c
 You need one Linux server (Ubuntu 22.04 or 24.04, or RHEL 9) with 2 CPUs, 4 GB of memory and 20 GB of disk, on a network that
 can reach your devices over SSH.
 
-Get the installer at [safecadence.com/account/new](https://safecadence.com/account/new): four fields, and the download is
-released as soon as you confirm your email. Then:
+Download SafeAI — no sign-up — from [safecadence.com/download](https://safecadence.com/download/). Then:
 
 ```
-sha256sum safeai-observe-2.9.85.tar      # must equal 26ec49765f0002a2b69b651fb54b6a69e14758031f47f60416e26c63656f6e5b
-tar -xf safeai-observe-2.9.85.tar && cd safeai-observe-2.9.85
+sha256sum safeai-observe-2.9.85.1.tar    # must equal b60537ae0ca720188d6148e276c32e672b36a140d3570169f7d13d009897feab
+tar -xf safeai-observe-2.9.85.1.tar && cd safeai-observe-2.9.85.1
 sudo ./install.sh --expect-fingerprint fb51cd77f84753f29bfde10f6796f07a
 ```
 
