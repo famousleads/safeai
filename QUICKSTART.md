@@ -10,8 +10,10 @@ From nothing to your first devices read. Plan about 30 minutes; most of it is cr
 
 ## 2. Install (about a minute)
 
+Download the installer at [safecadence.com/account/new](https://safecadence.com/account/new), copy it to the server, then:
+
 ```
-sha256sum safeai-observe-2.9.85.tar      # must match the value on the release page
+sha256sum safeai-observe-2.9.85.tar      # must equal 26ec49765f0002a2b69b651fb54b6a69e14758031f47f60416e26c63656f6e5b
 tar -xf safeai-observe-2.9.85.tar && cd safeai-observe-2.9.85
 sudo ./install.sh --expect-fingerprint fb51cd77f84753f29bfde10f6796f07a
 ```
